@@ -89,8 +89,7 @@ public class SystemComponentBusinessImpl {
 			}
 		}
 
-		componentService.install(component.getName());
-		return true;
+		return componentService.install(component.getName());
 	}
 
 	public void remove(SystemComponent component) {
